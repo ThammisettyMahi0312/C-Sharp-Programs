@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart1
+{
+    internal class Accessmodifiers
+    {
+            //Access modifiers are 4 public,private,internal and protect
+            public void name()
+        {
+            Console.WriteLine("My Name is Mahi");
+        }
+        private void age()
+        {
+            Console.WriteLine("My Age is 22");
+        }
+        internal void city()
+        {
+            Console.WriteLine("My Native Place is Andhra Pradesh");
+        }
+    }
+    
+}
