@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart1
+{
+    internal class Constantprg
+    {
+        static void Main()
+        {
+            const int number = 33;
+            const string word = "training";
+            Console.WriteLine("The Number is "+number);
+            Console.WriteLine("The String is " + word);
+        }
+    }
+  }
