@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart1
+{
+    internal class Complementoper
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("Enter a Value");
+            int a=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(~a);
+            Console.WriteLine("Enter b Value");
+            int b=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(~b);
+        }
+    }
+}
