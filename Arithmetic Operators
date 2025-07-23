@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart1
+{
+    internal class Arithmeticoper
+    {
+        static void Main()
+        {
+            Console.WriteLine("Enter the values of a and b");
+            int a=Convert.ToInt32(Console.ReadLine());
+            int b=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Addition of "+a+" and "+b+" is "+(a+b));
+            Console.WriteLine("Subtraction of " + a + " and " + b + " is " + (a - b));
+            Console.WriteLine("Multiplication of " + a + " and " + b + " is " + (a * b));
+            Console.WriteLine("Division of " + a + " and " + b + " is " + (a / b));
+            Console.WriteLine("Modulo Division of " + a + " and " + b + " is " + (a % b));
+            
+        }
+    }
+}
