@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart1
+{
+    internal class Additionoftwonum
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter two numbers");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2= Convert.ToInt32(Console.ReadLine());
+            int res=num1 + num2;
+            Console.WriteLine("Addition of " + num1 + " and " + num2 + " is " + res);
+        }
+    }
+}
