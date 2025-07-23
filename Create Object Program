@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart1
+{
+    internal class Objectprgm
+    {
+        static void Main()
+        {
+            Objectprgm obj = new Objectprgm();
+            obj.Mthd1();
+            obj.Mthd2();
+        }
+        public void Mthd1()
+        {
+            Console.WriteLine("This is Method1");
+        }
+        public void Mthd2()
+        {
+            Console.WriteLine("This is Method2");
+        }
+    }
+  
