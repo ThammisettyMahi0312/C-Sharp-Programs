@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart2
+{
+    internal class Charprgm
+    {
+        static void Main()
+        {
+            char ch = 'C';
+            ch++;
+            Console.WriteLine(ch);
+        }
+    }
+}
