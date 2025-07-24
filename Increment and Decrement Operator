@@ -13,6 +13,8 @@ namespace ProgramsPart2
             int x = 3;
             int y = (x--) + (++x);
             Console.WriteLine(y);
+            Console.WriteLine(x++ + x-- + --x + ++x + x++ + --x);
+
         }
     }
 }
