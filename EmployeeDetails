@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart2
+{
+    internal class Employeedetails
+    {
+        public int id;
+        public string name;
+        public double salary;
+        static void Main()
+        {
+           
+            Employeedetails emp1 = new Employeedetails();
+            Employeedetails emp2 = new Employeedetails();
+            Console.WriteLine("Enter First Employee ID,Name and Salary");
+            emp1.id = Convert.ToInt32(Console.ReadLine());
+            emp1.name = Console.ReadLine();
+            emp1.salary = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter Second Employee ID,Name and salary");
+            emp2.id = Convert.ToInt32(Console.ReadLine());
+            emp2.name = Console.ReadLine();
+            emp2.salary = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("First Employee Details..........");
+            Console.WriteLine("First Employee ID is " + emp1.id);
+            Console.WriteLine("First Employee Name is " + emp1.name);
+            Console.WriteLine("First Employee Salary is " + emp1.salary);
+            Console.WriteLine("Second Employee Details.........");
+            Console.WriteLine("Second Employee ID is " + emp2.id);
+            Console.WriteLine("Second Employee Name is " + emp2.name);
+            Console.WriteLine("Second Employee Salary is " + emp2.salary);
+
+
+        }
+    }
+}
