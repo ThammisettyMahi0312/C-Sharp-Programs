@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart2
+{
+    internal class StrExcs
+    {
+        static void Main()
+        {
+            string str = "Hello ";
+            str.Concat("World");
+            //str value remains same i.e.,string is immutable so world is not concatinated to str=hello
+            Console.WriteLine(str);
+        }
+    }
+}
