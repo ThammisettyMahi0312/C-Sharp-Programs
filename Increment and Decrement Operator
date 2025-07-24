@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart2
+{
+    internal class Incrementoper
+    {
+        static void Main()
+        {
+            int x = 3;
+            int y = (x--) + (++x);
+            Console.WriteLine(y);
+        }
+    }
+}
