@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProgramsPart2
+{
+    internal class Gethashcodeprgm
+    {
+        int x;
+        static void Main()
+        {
+            Gethashcodeprgm obj1 = new Gethashcodeprgm();
+            obj1.x = 12;
+            Gethashcodeprgm obj2 = obj1;
+            obj2.x = 13;
+            Console.WriteLine(obj1.x);
+            //GetHashCode method print the address of any variable
+            Console.WriteLine(obj1.GetHashCode());
+            Console.WriteLine(obj2.GetHashCode());
+        }
+    }
+}
